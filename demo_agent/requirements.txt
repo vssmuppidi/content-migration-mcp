@@ -1,0 +1,16 @@
+# Agno Framework
+agno>=2.0.0
+
+# MCP Support
+mcp>=1.0.0
+
+# OpenAI SDK (required for OpenRouter compatibility)
+openai>=1.0.0
+
+# Web UI
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+streamlit>=1.28.0
+
+# Note: sqlite3 is part of Python's standard library, no need to install
+

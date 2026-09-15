@@ -1,0 +1,24 @@
+# MCP Server Dependencies
+mcp>=0.1.0
+
+# Data Source APIs
+praw>=7.7.1  # Reddit API wrapper
+google-api-python-client>=2.100.0  # YouTube Data API
+feedparser>=6.0.10  # Google News RSS parsing
+
+# HTTP requests and utilities
+requests>=2.31.0  # For OpenRouter API
+groq>=0.9.0  # For Groq API (backup inference)
+python-dotenv>=1.0.0  # Environment variable management
+
+# Optional but recommended
+typing-extensions>=4.8.0  # For better type hints
+
+# Voice Generation
+elevenlabs>=1.0.0  # ElevenLabs API for voice generation
+ffmpeg-python>=0.2.0  # Audio extraction from video
+pydub>=0.25.1  # Audio file manipulation
+
+# Video Generation
+Pillow>=10.0.0  # Image processing and validation for D-ID
+
